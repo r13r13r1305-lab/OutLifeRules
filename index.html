@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutLife Roleplay | القوانين الرسمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #0b0e14;
+            color: #e1e1e1;
+            line-height: 1.7;
+            padding-bottom: 3rem;
+        }
+
+        /* رأس الصفحة والشعار الحقيقي */
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+            background: radial-gradient(circle at center, #162032 0%, #0b0e14 80%);
+            border-bottom: 2px solid #00ffcc22;
+        }
+
+        .logo-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 1.2rem;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #00ffcc;
+            box-shadow: 0 0 25px rgba(0, 255, 204, 0.4);
+            background: #131822;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin-bottom: 0.3rem;
+            font-weight: 900;
+        }
+
+        .hero h1 span {
+            color: #00ffcc;
+        }
+
+        .hero p {
+            color: #8b9bb4;
+            font-size: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* حاوية الأقسام والقوانين */
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* أزرار التنقل السريع بين الأقسام */
+        .nav-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .tab-btn {
+            background: #131822;
+            color: #8b9bb4;
+            border: 1px solid #1f293d;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .tab-btn:hover {
+            background: #00ffcc;
+            color: #0b0e14;
+            border-color: #00ffcc;
+            box-shadow: 0 0 12px rgba(0, 255, 204, 0.3);
+        }
+
+        /* بطاقات القوانين */
+        .rules-card {
+            background: #131822;
+            border-radius: 12px;
+            padding: 1.8rem;
+            margin-bottom: 1.5rem;
+            border-right: 5px solid #00ffcc;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .rules-card h3 {
+            color: #00ffcc;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            position: relative;
+            padding-right: 22px;
+            margin-bottom: 0.9rem;
+            font-size: 1rem;
+            color: #c9d1d9;
+        }
+
+        ul li::before {
+            content: "▪";
+            position: absolute;
+            right: 0;
+            color: #00ffcc;
+            font-size: 1.2rem;
+        }
+
+        .highlight {
+            color: #ff5555;
+            font-weight: 700;
+        }
+
+        .safe-note {
+            color: #00ffcc;
+            font-weight: 700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #6e7681;
+            font-size: 0.9rem;
+            border-top: 1px solid #1f293d;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- رأس الصفحة مع الشعار الحقيقي -->
+    <header class="hero">
+        <div class="logo-container">
+            <img src="logo.png" alt="OutLife Logo">
+        </div>
+        <h1>OUTLIFE <span>ROLEPLAY</span></h1>
+        <p>البوابة الرسمية لقوانين وأنظمة ماب روبلوكس</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- أزرار التنقل السريع -->
+        <div class="nav-tabs">
+            <a href="#general" class="tab-btn">القوانين العامة</a>
+            <a href="#rp" class="tab-btn">الرول بلاي</a>
+            <a href="#security" class="tab-btn">الشرطة والسرقات</a>
+            <a href="#punishments" class="tab-btn">العقوبات</a>
+        </div>
+
+        <!-- 1. القوانين العامة -->
+        <div class="rules-card" id="general">
+            <h3>🛡️ 1. القوانين العامة للمجتمع والماب</h3>
+            <ul>
+                <li>يجب احترام جميع اللاعبين وطاقم الإدارة وعدم استخدام أي ألفاظ نابية أو عنصرية.</li>
+                <li>يمنع منعاً باتاً استغلال الثغرات أو القلتشات، وفي حال إيجاد ثغرة يجب إبلاغ الإدارة فوراً.</li>
+                <li>احترام الهرم الإداري، وفي حال وجود شكوى ضد إداري يرجى فتح تذكرة (Ticket) رسمية.</li>
+                <li>يمنع تماماً الترويج لأي ماباعات أو سيرفرات خارجية داخل مجتمعنا.</li>
+            </ul>
+        </div>
+
+        <!-- 2. قوانين الرول بلاي -->
+        <div class="rules-card" id="rp">
+            <h3>⚖️ 2. قوانين الرول بلاي الأساسية (Roleplay)</h3>
+            <ul>
+                <li><span class="highlight">الحفاظ على الحياة (Value Life):</span> يجب الخوف على حياتك الشخصية وعدم معاندة المسلحين في المواقف الخطرة.</li>
+                <li><span class="highlight">القتل العشوائي (RDM):</span> يمنع قتل أي لاعب بدون سبب درامي أو سيناريو مسبق.</li>
+                <li><span class="highlight">الدهس العشوائي (VDM):</span> يحظر استخدام السيارات لصدم أو قتل اللاعبين بدون مبرر.</li>
+                <li>الالتزام بالسيناريو وعدم الخروج عن الشخصية (OOC) أثناء المواقف الجدية.</li>
+            </ul>
+        </div>
+
+        <!-- 3. السرقات والجهات الأمنية -->
+        <div class="rules-card" id="security">
+            <h3>🚨 3. قوانين السرقات، العصابات، والشرطة</h3>
+            <ul>
+                <li>لا تقم بسرقات الأماكن الكبرى إلا بوجود الحد الأدنى المطلوب من العساكر أونلاين.</li>
+                <li>يحذر على رجال الأمن إساءة استخدام السلطة أو الاعتقال بدون تهمة رول بلاي واضحة.</li>
+                <li>يجب إعطاء فرصة للتفاوض والهروب المنظم أثناء السيناريوهات الأمنية.</li>
+            </ul>
+        </div>
+
+        <!-- 4. نظام العقوبات -->
+        <div class="rules-card" id="punishments">
+            <h3>⚠️ 4. نظام العقوبات والمخالفات</h3>
+            <ul>
+                <li>المخالفات البسيطة: <span class="safe-note">تنبيه شفهي أو كتابي (Warn)</span>.</li>
+                <li>المخالفات المتكررة: سجن مؤقت داخل الماب أو كتم (Mute / Jail).</li>
+                <li>المخالفات الجسيمة (تخريب، استغلال ثغرات، شتم مفرط): <span class="highlight">حظر نهائي (Ban)</span> من الماب.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026 OutLife Roleplay</p>
+    </footer>
+
+</body>
+</html>
